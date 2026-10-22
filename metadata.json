@@ -1,0 +1,6 @@
+{
+  "name": "MIKROTECK 301 — Messenger AI Manager",
+  "description": "Tableau de bord SaaS et assistant commercial Messenger intelligent propulsé par Google Gemini pour MIKROTECK 301 (Fianarantsoa, Madagascar).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,741 @@
+{
+  "version": 1,
+  "settings": {
+    "id": "default",
+    "appName": "MIKROTECK 301 — Messenger AI Manager",
+    "businessName": "E-Varotra Info Fianarantsoa",
+    "businessAddress": "Imandry, Fianarantsoa, Madagascar",
+    "businessPhone": "038 28 171 00",
+    "metaVerifyToken": "mikroteck301_verify_token_2026",
+    "metaAppSecret": "4bd409f47b34ff816b0277a84b4f30bc",
+    "metaAppId": "",
+    "metaPageAccessToken": "EAAPU018SAFMBS8datz5EHPBwbXyhg6015ucrKn4zZCrQgRiK7F9lOgimj4fPUbcg3IJpZCUHtV8JO8GMrStmd8s61uuICfa0fdNSkOZCqZBoGkZCgKV931D7rDC5BQBTwMNrZB5hpppOBO1eUSZAzBomBzqZC8B0flEZByHBgEQqUr3CYLtABkNh3hCV7qVqEoDMKRLKx",
+    "metaPageId": "103424856124751",
+    "metaPageName": "E-Varotra Info Fianarantsoa",
+    "geminiModel": "gemini-3.8-flash",
+    "geminiTemperature": 0.7,
+    "geminiMaxTokens": 800,
+    "aiAutoReplyEnabled": true,
+    "malagasySupportEnabled": true,
+    "systemPromptInstructions": "Vous êtes l'assistant commercial officiel et conseiller technique de MIKROTECK 301 à Fianarantsoa, Madagascar.\nVotre mission :\n1. Saluer chaleureusement le client et identifier s'il s'exprime en français ou en malgache.\n2. Répondre TOUJOURS dans la même langue que le client (français ou malgache).\n3. Présenter nos équipements réseau et Wi-Fi avec clarté, professionnalisme et courtoisie.\n4. Les prix fournis doivent PROVENIR STRICTEMENT du catalogue officiel ci-dessous. Ne jamais inventer un prix ou promettre un rabais non mentionné.\n5. Si un client pose une question ambiguë, demandez poliment des précisions (ex: distance de couverture, usage intérieur ou extérieur).\n6. Ne jamais inventer de fausses livraisons, garanties non approuvées ou stock imaginaire.\n7. Ne jamais demander de mot de passe, de code Mobile Money (Mvola, Orange Money, Airtel Money) ou d'information bancaire confidentielle.\n8. Si vous n'êtes pas certain ou si le client demande une intervention humaine, proposez de le mettre en relation avec un technicien ou appelez le 038 28 171 00.\n9. Gardez des réponses concises, naturelles, adaptées à la messagerie mobile Facebook Messenger.",
+    "updatedAt": "2026-10-22T14:29:38.360Z"
+  },
+  "connectedPages": [
+    {
+      "id": "page-103424856124751",
+      "pageId": "103424856124751",
+      "pageName": "E-Varotra Info Fianarantsoa",
+      "category": "Hardware Store",
+      "status": "active",
+      "lastSyncedAt": "2026-10-22T14:02:07.095Z"
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv-client_demo_1087",
+      "platformUserId": "client_demo_1087",
+      "senderName": "Client Fianarantsoa",
+      "status": "ai_active",
+      "lastMessageText": "Manao ahoana, ohatrinona ny vidin'ny Tenda AC5 ?",
+      "lastMessageAt": "2026-10-22T14:17:54.519Z",
+      "unreadCount": 1,
+      "createdAt": "2026-10-22T14:17:54.517Z",
+      "updatedAt": "2026-10-22T14:17:54.519Z"
+    },
+    {
+      "id": "conv-client_demo_2736",
+      "platformUserId": "client_demo_2736",
+      "senderName": "Testeur Fianarantsoa",
+      "status": "ai_active",
+      "lastMessageText": "Manao ahoana tompoko ! Ny routeur Wi-Fi double bande Tenda AC5 AC1200 dia 85 000 Ar ao amin'ny MIKROTECK 301 (Imandry, Fianarantsoa). Antsoy ny 038 28 171 00.",
+      "lastMessageAt": "2026-10-22T14:17:55.483Z",
+      "unreadCount": 1,
+      "createdAt": "2026-10-22T14:17:53.137Z",
+      "updatedAt": "2026-10-22T14:17:55.483Z"
+    },
+    {
+      "id": "conv-client_demo_2239",
+      "platformUserId": "client_demo_2239",
+      "senderName": "Client Fianarantsoa",
+      "status": "ai_active",
+      "lastMessageText": "Manao ahoana tompoko ! Tongasoa eto amin'ny MIKROTECK 301.\n\nNy vidin'ny **Tenda AC5 (AC1200)** dia **85 000 Ariary** ary mbola misy (en stock) tsara eto am-pelatanana.\n\nRouteur Wi-Fi double bande matanjaka tsara izy io, misy antenne 4 (5dBi), tena tsara ho an'ny fampiasana an-trano na birao.\n\nAfaka mandalo mivantana eny amin'ny fivarotantsika eny **Imandry, Fianarantsoa** ianao, na miantso anay mivantana amin'ny **038 28 171 00**. \n\nMisaotra tompoko, misy fanontaniana hafa tianao ho fantatra ve?",
+      "lastMessageAt": "2026-10-22T14:17:39.621Z",
+      "unreadCount": 1,
+      "createdAt": "2026-10-22T14:17:29.726Z",
+      "updatedAt": "2026-10-22T14:17:39.621Z"
+    },
+    {
+      "id": "conv-user_handoff_1792677727097",
+      "platformUserId": "user_handoff_1792677727097",
+      "senderName": "Client VIP",
+      "status": "human_handoff",
+      "lastMessageText": "Bonjour, je souhaite parler à un technicien.",
+      "lastMessageAt": "2026-10-22T14:02:07.099Z",
+      "unreadCount": 1,
+      "createdAt": "2026-10-22T14:02:07.097Z",
+      "updatedAt": "2026-10-22T14:02:07.099Z",
+      "notes": "Demande directe de technicien"
+    },
+    {
+      "id": "conv-test_psid_1792677721773",
+      "platformUserId": "test_psid_1792677721773",
+      "senderName": "Client Messenger",
+      "status": "ai_active",
+      "lastMessageText": "Bonjour ! 👋\n\nLe routeur Wi-Fi **Tenda AC5 (AC1200)** est actuellement disponible en stock au prix de **85 000 Ariary**.\n\nC'est un routeur double bande haute vitesse, équipé de 4 antennes 5dBi, parfait pour une excellente couverture à la maison ou au bureau. 📶\n\nVous pouvez passer le récupérer directement à notre boutique située à **Imandry, Fianarantsoa**. \n\nBesoin de plus d'informations ou d'une réservation ? N'hésitez pas à nous écrire ici ou à nous appeler directement au **038 28 171 00**. \n\nÀ très bientôt chez MIKROTECK 301 !",
+      "lastMessageAt": "2026-10-22T14:02:05.566Z",
+      "unreadCount": 1,
+      "createdAt": "2026-10-22T14:02:01.774Z",
+      "updatedAt": "2026-10-22T14:02:05.566Z"
+    },
+    {
+      "id": "conv-user_handoff_1792608154111",
+      "platformUserId": "user_handoff_1792608154111",
+      "senderName": "Client VIP",
+      "status": "human_handoff",
+      "lastMessageText": "Bonjour, je souhaite parler à un technicien.",
+      "lastMessageAt": "2026-10-21T18:42:34.113Z",
+      "unreadCount": 1,
+      "createdAt": "2026-10-21T18:42:34.111Z",
+      "updatedAt": "2026-10-21T18:42:34.113Z",
+      "notes": "Demande directe de technicien"
+    },
+    {
+      "id": "conv-test_psid_1792608150526",
+      "platformUserId": "test_psid_1792608150526",
+      "senderName": "Client Messenger",
+      "status": "ai_active",
+      "lastMessageText": "Misaotra tompoko tamin'ny hafatrao. Misy olana ara-teknika kely ny rafitra automatique. Handray an-tanana ny hafatrao ny mpiasan'ny MIKROTECK 301 ato ho ato, na antsoy ny 038 28 171 00.",
+      "lastMessageAt": "2026-10-21T18:42:32.883Z",
+      "unreadCount": 1,
+      "createdAt": "2026-10-21T18:42:30.527Z",
+      "updatedAt": "2026-10-21T18:42:32.883Z"
+    },
+    {
+      "id": "conv-user_handoff_1792608120175",
+      "platformUserId": "user_handoff_1792608120175",
+      "senderName": "Client VIP",
+      "status": "human_handoff",
+      "lastMessageText": "Bonjour, je souhaite parler à un technicien.",
+      "lastMessageAt": "2026-10-21T18:42:00.177Z",
+      "unreadCount": 1,
+      "createdAt": "2026-10-21T18:42:00.175Z",
+      "updatedAt": "2026-10-21T18:42:00.177Z",
+      "notes": "Demande directe de technicien"
+    },
+    {
+      "id": "conv-test_psid_1792608087375",
+      "platformUserId": "test_psid_1792608087375",
+      "senderName": "Client Messenger",
+      "status": "ai_active",
+      "lastMessageText": "Misaotra tompoko tamin'ny hafatrao. Misy olana ara-teknika kely ny rafitra automatique. Handray an-tanana ny hafatrao ny mpiasan'ny MIKROTECK 301 ato ho ato, na antsoy ny 038 28 171 00.",
+      "lastMessageAt": "2026-10-21T18:41:48.294Z",
+      "unreadCount": 1,
+      "createdAt": "2026-10-21T18:41:27.375Z",
+      "updatedAt": "2026-10-21T18:41:48.294Z"
+    }
+  ],
+  "messages": [
+    {
+      "conversationId": "conv-test_psid_1792608087375",
+      "platformUserId": "test_psid_1792608087375",
+      "senderType": "user",
+      "text": "Bonjour, quel est le prix du Tenda AC5 ?",
+      "attachments": [],
+      "deliveryStatus": "delivered",
+      "id": "msg-1792608087376-018aa8c0",
+      "createdAt": "2026-10-21T18:41:27.376Z"
+    },
+    {
+      "conversationId": "conv-test_psid_1792608087375",
+      "platformUserId": "test_psid_1792608087375",
+      "senderType": "bot",
+      "senderName": "MIKROTECK 301 AI",
+      "text": "Misaotra tompoko tamin'ny hafatrao. Misy olana ara-teknika kely ny rafitra automatique. Handray an-tanana ny hafatrao ny mpiasan'ny MIKROTECK 301 ato ho ato, na antsoy ny 038 28 171 00.",
+      "deliveryStatus": "failed",
+      "errorMessage": "Aucun Jeton d'Accès de Page (Page Access Token) configuré.",
+      "id": "msg-1792608108294-bbd09a46",
+      "createdAt": "2026-10-21T18:41:48.294Z"
+    },
+    {
+      "conversationId": "conv-user_handoff_1792608120175",
+      "platformUserId": "user_handoff_1792608120175",
+      "senderType": "user",
+      "text": "Bonjour, je souhaite parler à un technicien.",
+      "attachments": [],
+      "deliveryStatus": "delivered",
+      "id": "msg-1792608120177-ac399a18",
+      "createdAt": "2026-10-21T18:42:00.177Z"
+    },
+    {
+      "conversationId": "conv-test_psid_1792608150526",
+      "platformUserId": "test_psid_1792608150526",
+      "senderType": "user",
+      "text": "Bonjour, quel est le prix du Tenda AC5 ?",
+      "attachments": [],
+      "deliveryStatus": "delivered",
+      "id": "msg-1792608150528-907eaa5f",
+      "createdAt": "2026-10-21T18:42:30.528Z"
+    },
+    {
+      "conversationId": "conv-test_psid_1792608150526",
+      "platformUserId": "test_psid_1792608150526",
+      "senderType": "bot",
+      "senderName": "MIKROTECK 301 AI",
+      "text": "Misaotra tompoko tamin'ny hafatrao. Misy olana ara-teknika kely ny rafitra automatique. Handray an-tanana ny hafatrao ny mpiasan'ny MIKROTECK 301 ato ho ato, na antsoy ny 038 28 171 00.",
+      "deliveryStatus": "failed",
+      "errorMessage": "Aucun Jeton d'Accès de Page (Page Access Token) configuré.",
+      "id": "msg-1792608152883-71b002a7",
+      "createdAt": "2026-10-21T18:42:32.883Z"
+    },
+    {
+      "conversationId": "conv-user_handoff_1792608154111",
+      "platformUserId": "user_handoff_1792608154111",
+      "senderType": "user",
+      "text": "Bonjour, je souhaite parler à un technicien.",
+      "attachments": [],
+      "deliveryStatus": "delivered",
+      "id": "msg-1792608154113-3e6a40c1",
+      "createdAt": "2026-10-21T18:42:34.113Z"
+    },
+    {
+      "conversationId": "conv-test_psid_1792677721773",
+      "platformUserId": "test_psid_1792677721773",
+      "senderType": "user",
+      "text": "Bonjour, quel est le prix du Tenda AC5 ?",
+      "attachments": [],
+      "deliveryStatus": "delivered",
+      "id": "msg-1792677721775-e27bdfdb",
+      "createdAt": "2026-10-22T14:02:01.775Z"
+    },
+    {
+      "conversationId": "conv-test_psid_1792677721773",
+      "platformUserId": "test_psid_1792677721773",
+      "senderType": "bot",
+      "senderName": "MIKROTECK 301 AI",
+      "text": "Bonjour ! 👋\n\nLe routeur Wi-Fi **Tenda AC5 (AC1200)** est actuellement disponible en stock au prix de **85 000 Ariary**.\n\nC'est un routeur double bande haute vitesse, équipé de 4 antennes 5dBi, parfait pour une excellente couverture à la maison ou au bureau. 📶\n\nVous pouvez passer le récupérer directement à notre boutique située à **Imandry, Fianarantsoa**. \n\nBesoin de plus d'informations ou d'une réservation ? N'hésitez pas à nous écrire ici ou à nous appeler directement au **038 28 171 00**. \n\nÀ très bientôt chez MIKROTECK 301 !",
+      "deliveryStatus": "failed",
+      "errorMessage": "Erreur Meta : (#100) Param recipient[id] must be a valid ID string (e.g., \"123\")",
+      "geminiTokensUsed": 192,
+      "id": "msg-1792677725566-9f91753e",
+      "createdAt": "2026-10-22T14:02:05.566Z"
+    },
+    {
+      "conversationId": "conv-user_handoff_1792677727097",
+      "platformUserId": "user_handoff_1792677727097",
+      "senderType": "user",
+      "text": "Bonjour, je souhaite parler à un technicien.",
+      "attachments": [],
+      "deliveryStatus": "delivered",
+      "id": "msg-1792677727099-7929697a",
+      "createdAt": "2026-10-22T14:02:07.099Z"
+    },
+    {
+      "conversationId": "conv-client_demo_2239",
+      "platformUserId": "client_demo_2239",
+      "senderType": "user",
+      "text": "Manao ahoana, ohatrinona ny vidin'ny Tenda AC5 ?",
+      "attachments": [],
+      "deliveryStatus": "delivered",
+      "id": "msg-1792678649727-2bda16f1",
+      "createdAt": "2026-10-22T14:17:29.728Z"
+    },
+    {
+      "conversationId": "conv-client_demo_2239",
+      "platformUserId": "client_demo_2239",
+      "senderType": "bot",
+      "senderName": "MIKROTECK 301 AI",
+      "text": "Manao ahoana tompoko ! Tongasoa eto amin'ny MIKROTECK 301.\n\nNy vidin'ny **Tenda AC5 (AC1200)** dia **85 000 Ariary** ary mbola misy (en stock) tsara eto am-pelatanana.\n\nRouteur Wi-Fi double bande matanjaka tsara izy io, misy antenne 4 (5dBi), tena tsara ho an'ny fampiasana an-trano na birao.\n\nAfaka mandalo mivantana eny amin'ny fivarotantsika eny **Imandry, Fianarantsoa** ianao, na miantso anay mivantana amin'ny **038 28 171 00**. \n\nMisaotra tompoko, misy fanontaniana hafa tianao ho fantatra ve?",
+      "deliveryStatus": "delivered",
+      "geminiTokensUsed": 187,
+      "id": "msg-1792678659621-1592f2e4",
+      "createdAt": "2026-10-22T14:17:39.621Z"
+    },
+    {
+      "conversationId": "conv-client_demo_2736",
+      "platformUserId": "client_demo_2736",
+      "senderType": "user",
+      "text": "Manao ahoana, ohatrinona ny vidin ny Tenda AC5 ?",
+      "attachments": [],
+      "deliveryStatus": "delivered",
+      "id": "msg-1792678673139-4dc94d67",
+      "createdAt": "2026-10-22T14:17:53.139Z"
+    },
+    {
+      "conversationId": "conv-client_demo_1087",
+      "platformUserId": "client_demo_1087",
+      "senderType": "user",
+      "text": "Manao ahoana, ohatrinona ny vidin'ny Tenda AC5 ?",
+      "attachments": [],
+      "deliveryStatus": "delivered",
+      "id": "msg-1792678674519-ce368114",
+      "createdAt": "2026-10-22T14:17:54.519Z"
+    },
+    {
+      "conversationId": "conv-client_demo_2736",
+      "platformUserId": "client_demo_2736",
+      "senderType": "bot",
+      "senderName": "MIKROTECK 301 AI",
+      "text": "Manao ahoana tompoko ! Ny routeur Wi-Fi double bande Tenda AC5 AC1200 dia 85 000 Ar ao amin'ny MIKROTECK 301 (Imandry, Fianarantsoa). Antsoy ny 038 28 171 00.",
+      "deliveryStatus": "delivered",
+      "id": "msg-1792678675482-d416f4c5",
+      "createdAt": "2026-10-22T14:17:55.483Z"
+    }
+  ],
+  "processedEvents": [
+    {
+      "id": "evt-1792608087374",
+      "eventId": "mid_test_idempotency_1792608087374",
+      "eventType": "test_event",
+      "processedAt": "2026-10-21T18:41:27.374Z"
+    },
+    {
+      "id": "evt-1792608087375",
+      "eventId": "mid_1792608087375",
+      "eventType": "facebook_message",
+      "processedAt": "2026-10-21T18:41:27.375Z"
+    },
+    {
+      "id": "evt-1792608120176",
+      "eventId": "mid_handoff_1792608120176",
+      "eventType": "facebook_message",
+      "processedAt": "2026-10-21T18:42:00.176Z"
+    },
+    {
+      "id": "evt-1792608150525",
+      "eventId": "mid_test_idempotency_1792608150525",
+      "eventType": "test_event",
+      "processedAt": "2026-10-21T18:42:30.525Z"
+    },
+    {
+      "id": "evt-1792608150526",
+      "eventId": "mid_1792608150526",
+      "eventType": "facebook_message",
+      "processedAt": "2026-10-21T18:42:30.526Z"
+    },
+    {
+      "id": "evt-1792608154113",
+      "eventId": "mid_handoff_1792608154113",
+      "eventType": "facebook_message",
+      "processedAt": "2026-10-21T18:42:34.113Z"
+    },
+    {
+      "id": "evt-1792677721772",
+      "eventId": "mid_test_idempotency_1792677721772",
+      "eventType": "test_event",
+      "processedAt": "2026-10-22T14:02:01.772Z"
+    },
+    {
+      "id": "evt-1792677721774",
+      "eventId": "mid_1792677721773",
+      "eventType": "facebook_message",
+      "processedAt": "2026-10-22T14:02:01.774Z"
+    },
+    {
+      "id": "evt-1792677727099",
+      "eventId": "mid_handoff_1792677727099",
+      "eventType": "facebook_message",
+      "processedAt": "2026-10-22T14:02:07.099Z"
+    },
+    {
+      "id": "evt-1792678649727",
+      "eventId": "mid_sim_1792678649726",
+      "eventType": "facebook_message",
+      "processedAt": "2026-10-22T14:17:29.727Z"
+    },
+    {
+      "id": "evt-1792678673138",
+      "eventId": "mid_sim_1792678673138",
+      "eventType": "facebook_message",
+      "processedAt": "2026-10-22T14:17:53.138Z"
+    },
+    {
+      "id": "evt-1792678674518",
+      "eventId": "mid_sim_1792678674518",
+      "eventType": "facebook_message",
+      "processedAt": "2026-10-22T14:17:54.518Z"
+    }
+  ],
+  "products": [
+    {
+      "id": "prod-tenda-ac5",
+      "name": "Tenda AC5 AC1200",
+      "category": "Routeur Wi-Fi Intérieur",
+      "priceAriary": 85000,
+      "description": "Routeur Wi-Fi double bande AC1200 haute vitesse, 4 antennes 5dBi, idéal pour maison et bureau.",
+      "inStock": true,
+      "highlight": true,
+      "createdAt": "2026-10-21T18:41:27.211Z",
+      "updatedAt": "2026-10-21T18:41:27.211Z"
+    },
+    {
+      "id": "prod-os3-5km",
+      "name": "OS3 5 km 5 GHz",
+      "category": "Pont Réseau Extérieur (CPE)",
+      "priceAriary": 180000,
+      "description": "Point d'accès extérieur 5 GHz 867 Mbps, portée jusqu'à 5 km point-à-point, étanche IP65.",
+      "inStock": true,
+      "highlight": true,
+      "createdAt": "2026-10-21T18:41:27.211Z",
+      "updatedAt": "2026-10-21T18:41:27.211Z"
+    },
+    {
+      "id": "prod-tenda-01-1km",
+      "name": "Tenda 01 1 km 5 GHz",
+      "category": "Pont Réseau Extérieur (CPE)",
+      "priceAriary": 135000,
+      "description": "CPE extérieur 5 GHz 300 Mbps, portée jusqu'à 1 km, idéal pour relier 2 bâtiments ou partage de connexion.",
+      "inStock": true,
+      "highlight": false,
+      "createdAt": "2026-10-21T18:41:27.211Z",
+      "updatedAt": "2026-10-21T18:41:27.211Z"
+    },
+    {
+      "id": "prod-pack-os3-ac5",
+      "name": "Pack OS3 + AC5",
+      "category": "Pack Complet Longue Portée",
+      "priceAriary": 265000,
+      "description": "Pack clé en main : 1 CPE extérieur OS3 (5 km) + 1 Routeur intérieur double bande Tenda AC5.",
+      "inStock": true,
+      "highlight": true,
+      "createdAt": "2026-10-21T18:41:27.211Z",
+      "updatedAt": "2026-10-21T18:41:27.211Z"
+    },
+    {
+      "id": "prod-pack-tenda01-ac5",
+      "name": "Pack Tenda 01 + AC5",
+      "category": "Pack Complet Moyenne Portée",
+      "priceAriary": 215000,
+      "description": "Pack économique : 1 CPE extérieur Tenda 01 (1 km) + 1 Routeur intérieur double bande Tenda AC5.",
+      "inStock": true,
+      "highlight": false,
+      "createdAt": "2026-10-21T18:41:27.211Z",
+      "updatedAt": "2026-10-21T18:41:27.211Z"
+    }
+  ],
+  "activityLogs": [
+    {
+      "id": "log-1792679378361-1e8b61",
+      "level": "info",
+      "eventType": "SETTINGS_UPDATED",
+      "message": "Paramètres de l’application mis à jour.",
+      "createdAt": "2026-10-22T14:29:38.361Z"
+    },
+    {
+      "id": "log-1792678675481-aa13e8",
+      "level": "warn",
+      "eventType": "GEMINI_FALLBACK_TRIGGERED",
+      "message": "Repli commercial activé suite à indisponibilité temporaire de l'IA ({\"error\":{\"code\":503,\"message\":\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\"status\":\"UNAVAILABLE\"}})",
+      "details": {
+        "user": "client_demo_2736",
+        "incoming": "Manao ahoana, ohatrinona ny vidin ny Tenda AC5 ?"
+      },
+      "createdAt": "2026-10-22T14:17:55.481Z"
+    },
+    {
+      "id": "log-1792678674519-43c803",
+      "level": "info",
+      "eventType": "INBOUND_MESSAGE_RECEIVED",
+      "message": "Nouveau message de client_demo_1087: \"Manao ahoana, ohatrinona ny vidin'ny Tenda AC5 ?\"",
+      "createdAt": "2026-10-22T14:17:54.519Z"
+    },
+    {
+      "id": "log-1792678674518-2d1a4d",
+      "level": "info",
+      "eventType": "NEW_CONVERSATION",
+      "message": "Nouvelle conversation avec Client Fianarantsoa (client_demo_1087)",
+      "createdAt": "2026-10-22T14:17:54.518Z"
+    },
+    {
+      "id": "log-1792678673139-1e98fe",
+      "level": "info",
+      "eventType": "INBOUND_MESSAGE_RECEIVED",
+      "message": "Nouveau message de client_demo_2736: \"Manao ahoana, ohatrinona ny vidin ny Tenda AC5 ?\"",
+      "createdAt": "2026-10-22T14:17:53.139Z"
+    },
+    {
+      "id": "log-1792678673137-b4a08b",
+      "level": "info",
+      "eventType": "NEW_CONVERSATION",
+      "message": "Nouvelle conversation avec Testeur Fianarantsoa (client_demo_2736)",
+      "createdAt": "2026-10-22T14:17:53.137Z"
+    },
+    {
+      "id": "log-1792678649728-68b217",
+      "level": "info",
+      "eventType": "INBOUND_MESSAGE_RECEIVED",
+      "message": "Nouveau message de client_demo_2239: \"Manao ahoana, ohatrinona ny vidin'ny Tenda AC5 ?\"",
+      "createdAt": "2026-10-22T14:17:29.728Z"
+    },
+    {
+      "id": "log-1792678649726-5cbb44",
+      "level": "info",
+      "eventType": "NEW_CONVERSATION",
+      "message": "Nouvelle conversation avec Client Fianarantsoa (client_demo_2239)",
+      "createdAt": "2026-10-22T14:17:29.726Z"
+    },
+    {
+      "id": "log-1792678646256-10bca8",
+      "level": "info",
+      "eventType": "SETTINGS_UPDATED",
+      "message": "Paramètres de l’application mis à jour.",
+      "createdAt": "2026-10-22T14:17:26.256Z"
+    },
+    {
+      "id": "log-1792677727100-23f273",
+      "level": "info",
+      "eventType": "HANDOFF_ACTIVE_NO_AI",
+      "message": "Conversation conv-user_handoff_1792677727097 en attente d'un opérateur humain. L'IA reste silencieuse.",
+      "createdAt": "2026-10-22T14:02:07.100Z"
+    },
+    {
+      "id": "log-1792677727099-d2d183",
+      "level": "info",
+      "eventType": "INBOUND_MESSAGE_RECEIVED",
+      "message": "Nouveau message de user_handoff_1792677727097: \"Bonjour, je souhaite parler à un technicien.\"",
+      "createdAt": "2026-10-22T14:02:07.099Z"
+    },
+    {
+      "id": "log-1792677727098-7a9c94",
+      "level": "info",
+      "eventType": "CONVERSATION_STATUS_CHANGE",
+      "message": "Statut conversation Client VIP passé à human_handoff",
+      "createdAt": "2026-10-22T14:02:07.098Z"
+    },
+    {
+      "id": "log-1792677727097-d3c920",
+      "level": "info",
+      "eventType": "NEW_CONVERSATION",
+      "message": "Nouvelle conversation avec Client VIP (user_handoff_1792677727097)",
+      "createdAt": "2026-10-22T14:02:07.097Z"
+    },
+    {
+      "id": "log-1792677727096-b6f180",
+      "level": "info",
+      "eventType": "SETTINGS_UPDATED",
+      "message": "Paramètres de l’application mis à jour.",
+      "createdAt": "2026-10-22T14:02:07.096Z"
+    },
+    {
+      "id": "log-1792677726776-db7924",
+      "level": "error",
+      "eventType": "GEMINI_GENERATION_FAILED",
+      "message": "Échec génération Gemini: {\"error\":{\"code\":503,\"message\":\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\"status\":\"UNAVAILABLE\"}}",
+      "details": {
+        "user": "test_user",
+        "model": "gemini-3.8-flash"
+      },
+      "createdAt": "2026-10-22T14:02:06.776Z"
+    },
+    {
+      "id": "log-1792677725566-5bd247",
+      "level": "error",
+      "eventType": "MESSENGER_SEND_FAILED",
+      "message": "Erreur Meta : (#100) Param recipient[id] must be a valid ID string (e.g., \"123\")",
+      "details": {
+        "recipientId": "test_psid_1792677721773",
+        "code": 100,
+        "raw": {
+          "message": "(#100) Param recipient[id] must be a valid ID string (e.g., \"123\")",
+          "type": "OAuthException",
+          "code": 100,
+          "fbtrace_id": "AzElwwtB9INni9QXmNxZTvV"
+        }
+      },
+      "createdAt": "2026-10-22T14:02:05.566Z"
+    },
+    {
+      "id": "log-1792677721776-065508",
+      "level": "info",
+      "eventType": "INBOUND_MESSAGE_RECEIVED",
+      "message": "Nouveau message de test_psid_1792677721773: \"Bonjour, quel est le prix du Tenda AC5 ?\"",
+      "createdAt": "2026-10-22T14:02:01.776Z"
+    },
+    {
+      "id": "log-1792677721775-96ff47",
+      "level": "info",
+      "eventType": "NEW_CONVERSATION",
+      "message": "Nouvelle conversation avec Client Messenger (test_psid_1792677721773)",
+      "createdAt": "2026-10-22T14:02:01.775Z"
+    },
+    {
+      "id": "log-1792677715469-fdafc5",
+      "level": "info",
+      "eventType": "SETTINGS_UPDATED",
+      "message": "Paramètres de l’application mis à jour.",
+      "createdAt": "2026-10-22T14:01:55.469Z"
+    },
+    {
+      "id": "log-1792677700148-0c4f97",
+      "level": "info",
+      "eventType": "SETTINGS_UPDATED",
+      "message": "Paramètres de l’application mis à jour.",
+      "createdAt": "2026-10-22T14:01:40.148Z"
+    },
+    {
+      "id": "log-1792608154114-4f9e58",
+      "level": "info",
+      "eventType": "HANDOFF_ACTIVE_NO_AI",
+      "message": "Conversation conv-user_handoff_1792608154111 en attente d'un opérateur humain. L'IA reste silencieuse.",
+      "createdAt": "2026-10-21T18:42:34.114Z"
+    },
+    {
+      "id": "log-1792608154113-c71330",
+      "level": "info",
+      "eventType": "INBOUND_MESSAGE_RECEIVED",
+      "message": "Nouveau message de user_handoff_1792608154111: \"Bonjour, je souhaite parler à un technicien.\"",
+      "createdAt": "2026-10-21T18:42:34.113Z"
+    },
+    {
+      "id": "log-1792608154112-ebcec5",
+      "level": "info",
+      "eventType": "CONVERSATION_STATUS_CHANGE",
+      "message": "Statut conversation Client VIP passé à human_handoff",
+      "createdAt": "2026-10-21T18:42:34.112Z"
+    },
+    {
+      "id": "log-1792608154111-b667b7",
+      "level": "info",
+      "eventType": "NEW_CONVERSATION",
+      "message": "Nouvelle conversation avec Client VIP (user_handoff_1792608154111)",
+      "createdAt": "2026-10-21T18:42:34.111Z"
+    },
+    {
+      "id": "log-1792608154110-d8a196",
+      "level": "error",
+      "eventType": "GEMINI_GENERATION_FAILED",
+      "message": "Échec génération Gemini: {\"error\":{\"code\":503,\"message\":\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\"status\":\"UNAVAILABLE\"}}",
+      "details": {
+        "user": "test_user",
+        "model": "gemini-3.8-flash"
+      },
+      "createdAt": "2026-10-21T18:42:34.110Z"
+    },
+    {
+      "id": "log-1792608152882-233fa7",
+      "level": "error",
+      "eventType": "GEMINI_GENERATION_FAILED",
+      "message": "Échec génération Gemini: {\"error\":{\"code\":503,\"message\":\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\"status\":\"UNAVAILABLE\"}}",
+      "details": {
+        "user": "test_psid_1792608150526",
+        "model": "gemini-3.8-flash"
+      },
+      "createdAt": "2026-10-21T18:42:32.882Z"
+    },
+    {
+      "id": "log-1792608150528-fa8185",
+      "level": "info",
+      "eventType": "INBOUND_MESSAGE_RECEIVED",
+      "message": "Nouveau message de test_psid_1792608150526: \"Bonjour, quel est le prix du Tenda AC5 ?\"",
+      "createdAt": "2026-10-21T18:42:30.528Z"
+    },
+    {
+      "id": "log-1792608150527-d89830",
+      "level": "info",
+      "eventType": "NEW_CONVERSATION",
+      "message": "Nouvelle conversation avec Client Messenger (test_psid_1792608150526)",
+      "createdAt": "2026-10-21T18:42:30.527Z"
+    },
+    {
+      "id": "log-1792608120177-ded2f3",
+      "level": "info",
+      "eventType": "HANDOFF_ACTIVE_NO_AI",
+      "message": "Conversation conv-user_handoff_1792608120175 en attente d'un opérateur humain. L'IA reste silencieuse.",
+      "createdAt": "2026-10-21T18:42:00.177Z"
+    },
+    {
+      "id": "log-1792608120177-8a07c9",
+      "level": "info",
+      "eventType": "INBOUND_MESSAGE_RECEIVED",
+      "message": "Nouveau message de user_handoff_1792608120175: \"Bonjour, je souhaite parler à un technicien.\"",
+      "createdAt": "2026-10-21T18:42:00.177Z"
+    },
+    {
+      "id": "log-1792608120176-069ee3",
+      "level": "info",
+      "eventType": "CONVERSATION_STATUS_CHANGE",
+      "message": "Statut conversation Client VIP passé à human_handoff",
+      "createdAt": "2026-10-21T18:42:00.176Z"
+    },
+    {
+      "id": "log-1792608120175-d0833f",
+      "level": "info",
+      "eventType": "NEW_CONVERSATION",
+      "message": "Nouvelle conversation avec Client VIP (user_handoff_1792608120175)",
+      "createdAt": "2026-10-21T18:42:00.175Z"
+    },
+    {
+      "id": "log-1792608120173-4f5642",
+      "level": "error",
+      "eventType": "GEMINI_GENERATION_FAILED",
+      "message": "Échec génération Gemini: {\"error\":{\"code\":503,\"message\":\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\"status\":\"UNAVAILABLE\"}}",
+      "details": {
+        "user": "test_user",
+        "model": "gemini-3.8-flash"
+      },
+      "createdAt": "2026-10-21T18:42:00.173Z"
+    },
+    {
+      "id": "log-1792608108293-d289c2",
+      "level": "error",
+      "eventType": "GEMINI_GENERATION_FAILED",
+      "message": "Échec génération Gemini: {\"error\":{\"code\":503,\"message\":\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\"status\":\"UNAVAILABLE\"}}",
+      "details": {
+        "user": "test_psid_1792608087375",
+        "model": "gemini-3.8-flash"
+      },
+      "createdAt": "2026-10-21T18:41:48.294Z"
+    },
+    {
+      "id": "log-1792608087376-d789d3",
+      "level": "info",
+      "eventType": "INBOUND_MESSAGE_RECEIVED",
+      "message": "Nouveau message de test_psid_1792608087375: \"Bonjour, quel est le prix du Tenda AC5 ?\"",
+      "createdAt": "2026-10-21T18:41:27.377Z"
+    },
+    {
+      "id": "log-1792608087376-af082f",
+      "level": "info",
+      "eventType": "NEW_CONVERSATION",
+      "message": "Nouvelle conversation avec Client Messenger (test_psid_1792608087375)",
+      "createdAt": "2026-10-21T18:41:27.376Z"
+    },
+    {
+      "id": "log-1792608087212",
+      "level": "info",
+      "eventType": "SYSTEM_STARTUP",
+      "message": "Initialisation du gestionnaire de base de données MIKROTECK 301.",
+      "createdAt": "2026-10-21T18:41:27.212Z"
+    }
+  ],
+  "adminUsers": [
+    {
+      "id": "admin-1",
+      "username": "admin_mikroteck",
+      "role": "superadmin",
+      "createdAt": "2026-10-21T18:41:27.212Z"
+    }
+  ],
+  "operatorHandoffs": [
+    {
+      "id": "handoff-1792608120175",
+      "conversationId": "conv-user_handoff_1792608120175",
+      "platformUserId": "user_handoff_1792608120175",
+      "reason": "Demande directe de technicien",
+      "requestedAt": "2026-10-21T18:42:00.175Z"
+    },
+    {
+      "id": "handoff-1792608154112",
+      "conversationId": "conv-user_handoff_1792608154111",
+      "platformUserId": "user_handoff_1792608154111",
+      "reason": "Demande directe de technicien",
+      "requestedAt": "2026-10-21T18:42:34.112Z"
+    },
+    {
+      "id": "handoff-1792677727098",
+      "conversationId": "conv-user_handoff_1792677727097",
+      "platformUserId": "user_handoff_1792677727097",
+      "reason": "Demande directe de technicien",
+      "requestedAt": "2026-10-22T14:02:07.098Z"
+    }
+  ]
+}
